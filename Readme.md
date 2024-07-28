@@ -6,7 +6,7 @@ In this project, I implemented simultaneous localization and mapping (SLAM) usin
 
 The repo does not contain the icp.py and utils.py file. If required please reach out to me.
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
     <img src="images/example.gif" alt="Example GIF" style="display: block; margin: 0 auto;"  width="300" height="300" />
     <p><em>Figure 1: 2D map made using LIDAR Slam.</em></p>
 </div>
