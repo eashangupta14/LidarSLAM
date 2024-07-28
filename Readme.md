@@ -2,6 +2,15 @@
 
 This is the code for ECE 276A project 2.
 
+In this project, I implemented simultaneous localization and mapping (SLAM) using encoder and IMU odometry, 2-D LiDAR scans, and RGBD measurements from a differential-drive robot. I used the odometry and LiDAR measurements to localize the robot and build a 2-D occupancy grid map of the environment. I use the RGBD images to assign colors to the 2-D map of the floor.
+
+The repo does not contain the icp.py and utils.py file. If required please reach out to me.
+
+<div style="text-align: center;">
+    <img src="images/example.gif" alt="Example GIF" style="display: block; margin: 0 auto;" />
+    <p><em>Figure 1: 2D map made using LIDAR Slam.</em></p>
+</div>
+
 ## Installation
 
 Follow the steps for setting up the environment  required to run the code on Windows.
@@ -65,7 +74,7 @@ For example to run dataset 20 use:
 
 ```bash
 cd code
-python main.py --data_num 20 --show
+python main.py --data 20 --show
 ```
 
 ### For ICP warmup
